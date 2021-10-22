@@ -1,0 +1,22 @@
+jongensnamen = set(('koos', 'jaap', 'francis', 'sam', 'robin', 'pieter'))
+meisjesnamen = {'saartje', 'nora', 'amber','sam','petra','robin', 'anne'}
+
+print(jongensnamen)
+print(meisjesnamen)
+print(jongensnamen.union(meisjesnamen))
+print(jongensnamen.difference(meisjesnamen))
+print(meisjesnamen.difference(jongensnamen))
+print(meisjesnamen.intersection(jongensnamen))
+print(' ')
+jongensnamen.add('anne')
+print(jongensnamen.union(meisjesnamen))
+print(jongensnamen.difference(meisjesnamen))
+print(meisjesnamen.difference(jongensnamen))
+print(meisjesnamen.intersection(jongensnamen))
+print(' ')
+meisjesnamen.clear()
+print(jongensnamen.union(meisjesnamen))
+print(jongensnamen.difference(meisjesnamen))
+print(meisjesnamen.difference(jongensnamen))
+print(meisjesnamen.intersection(jongensnamen))
+
