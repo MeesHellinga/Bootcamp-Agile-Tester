@@ -1,12 +1,8 @@
-merk = ['ah','coop','plus','spar']
-print(merk[0])		# ah
-print(merk[-1])		# spar
-print(merk[1:3])	# ['coop','plus']
-print(merk[2:])		# ['plus','spar']
-print(merk[:3])		# ['ah','coop','plus']
-print(merk[1:-2])	# ['coop']
+mijn_dieren = []
+mijn_dieren.append("Trui", "Konijn")
+mijn_dieren.append("Timmy", "Konijn")
+mijn_dieren.append("Dori", "Konijn")
+mijn_dieren.append("Loet", "Hond")
 
-# Let erop dat de index vaak 'tot' een positie is,
-# en niet 'tot en met'
 
-#hierna naar Tuples
+Print(mijn_dieren)
